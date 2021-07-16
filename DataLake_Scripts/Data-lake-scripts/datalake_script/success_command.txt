@@ -1,0 +1,1 @@
+sh +x ./diffen-deployer.sh diffen /opt/diffen/hive/conf/hive-site.xml "" --source galaxyintegration --country all --nifi-url http://10.10.32.6:8080/nifi-api --config-location /opt/diffen/diffen/1.0.0/conf/  --distributed-map-cache-port 9111 --nifi-username  diffen

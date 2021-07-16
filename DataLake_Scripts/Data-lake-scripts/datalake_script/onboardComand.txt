@@ -1,0 +1,37 @@
+
+sh -x ./diffen-deployer-azure.sh diffen  /opt/diffen/hive/conf/hive-site.xml "" --source shgalaxy --country all --nifi-url http:/10.10.32.6:8080/nifi-api --config-location /opt/diffen/diffen/1.0.0/conf --distributed-map-cache-port 7741 --nifi-username diffen
+
+
+
+
+ls -lRt | grep "_1.json"
+IMS_MASTXN_IMS_CLS_CLAIM_PAYMENT
+
+2021-05-12 18:00:00.0
+
+
+ims_cls_claim.D20210519.T124956.R193
+
+
+dapi51e2f0282cbbf6a86fc066463706139b
+
+
+{"job_id": 157,"notebook_params":{"eod_time":"2021-05-10 18:00:00.0"}}
+
+{"job_id": 157,"notebook_params":{"eod_time":"2021-05-25"}}
+
+
+
+
+dbfs:/testjar/IngestionProcessingV2-assembly-0.1.jar
+
+dbfs:/diffen/IngestionProcessingV2-assembly-1.0.jar
+
+dbfs:/testjar/IngestionProcessingSHTest-assembly-0.1.jar
+
+hive> delete from sh_galaxy_all_storage.sh_galaxy_all_eod_marker where vds in('2021-05-27','2021-05-26','2021-05-25','2021-05-22','2021-05-21');
+
+sh_galaxy_dev
+
+
+/ ${record:value()}

@@ -1,0 +1,23 @@
+<TableMapping table_type="Master">
+<SourceColumn columnName="split_key" dataType="DECIMAL(22,3)" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="policy_number" dataType="STRING" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="insured_number" dataType="DECIMAL(30,0)" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="policy_key" dataType="DECIMAL(15,0)" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="insured_key" dataType="DECIMAL(15,0)" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="product_type_id" dataType="DECIMAL(15,0)" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="total_si" dataType="DECIMAL(15,3)" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="cumulative_bonus" dataType="DECIMAL(15,3)" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="cover_si_1" dataType="DECIMAL(15,3)" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="cover_si_2" dataType="DECIMAL(15,3)" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="cover_si_3" dataType="DECIMAL(15,3)" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="benefit_death" dataType="DECIMAL(15,3)" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="benefit_ppd" dataType="DECIMAL(15,3)" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="benefit_ptd" dataType="DECIMAL(15,3)" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="benefit_ttd" dataType="DECIMAL(15,3)" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="hosp_si" dataType="DECIMAL(15,3)" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="active_status" dataType="STRING" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="cover_si_4" dataType="DECIMAL(15,3)" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="cover_si_5" dataType="DECIMAL(22,3)" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="created_date" dataType="TIMESTAMP" nullable="true" length="200" Primarykey="false" scale="0" />
+<SourceColumn columnName="modified_date" dataType="TIMESTAMP" nullable="true" length="200" Primarykey="false" scale="0" />
+</TableMapping>
